@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/* * header starts */ 
+header{
+    height: 12em;
+    border: 1px solid red;
+}
+#title{
+    margin-left:8%;
+    margin-top:2%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    border: 1px solid red;
+    float:left;
+    
+} 
+.navbar{
+    float: right;
+    border: 1px solid red;
+    margin-top:-45px;
+    
+    
+    
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+    border-right: 2px solid black;
+    margin-left: 90PX;
+    padding-right: 30px;
+    font-size: x-large;
+   
+}
+#contact{
+    border:none;
+}
+#hello{
+    border: 3px solid rgb(80, 76, 76);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.228);
+    font-size: xx-large;
+    margin-top: 80px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
