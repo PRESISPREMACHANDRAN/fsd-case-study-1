@@ -140,3 +140,29 @@ form h2{
     
 }
 /* contact form end */
+/* footer starts */
+footer{
+    border:  2px solid red;
+    padding-left: 80px;
+    margin-top: 30%;
+}
+.footer a{
+    text-decoration: none;
+    border:  2px solid red;
+    /* margin-right:10%; */
+    border-right: 2px solid black;
+    /* padding-left: 70px; */
+    font-size:larger;
+   padding-right: 40px;
+    color: black;
+    
+}
+#footer{
+    color: brown;
+    word-spacing: 10px;
+    font-size: x-large;
+    border:  2px solid red;
+    padding-right:10px;
+    float: left;
+}
+/* footer ends */
