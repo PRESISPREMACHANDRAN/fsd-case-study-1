@@ -45,5 +45,30 @@ header{
     font-size: xx-large;
     margin-top: 80px;
     padding-bottom: 40px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
+/* header end */
+/* about me starts */
+.about{
+    border: 2px solid red;
+    height: 30em;
+    padding-top: 30px;
+}
+#heading{
+    color: brown;
+    text-align: center;
+    font-size: xxx-large;
+    
+}
+#image{
+    border: 2px solid red;
+    float: left;
+    margin-left: 20%;
+    margin-top: 1px;
+}
+.paragraph{
+    border: 2px solid red;
+    float: right;
+    margin-left: 60%;
+}
+/* about me ends */
