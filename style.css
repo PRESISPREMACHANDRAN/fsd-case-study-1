@@ -84,3 +84,33 @@ header{
     border: 2px solid red;
 }
 /* skills end */
+/* education starts */
+#education{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    text-decoration-line: underline;
+}
+#college{
+    margin-left: 100px;
+    font-size: xx-large;
+    color: rgba(96, 87, 87, 0.713);
+}
+#school{
+    margin-left: 100px;
+    font-size: xx-large;
+    color: rgba(96, 87, 87, 0.713);
+}
+.college{
+    margin-left: 150px;
+    color: rgba(96, 87, 87, 0.713);
+    font-size: x-large;
+}
+
+.school{
+    margin-left:150px;
+    color: rgba(96, 87, 87, 0.713);
+    font-size: x-large;
+    
+}
+/* education ends */
