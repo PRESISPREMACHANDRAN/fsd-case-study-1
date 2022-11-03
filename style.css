@@ -6,21 +6,21 @@
 }
 /* * header starts */ 
 header{
-    height: 12em;
-    border: 1px solid red;
+    height: 15em;
+    border: 1px solid white;
 }
 #title{
     margin-left:8%;
     margin-top:2%;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     float:left;
     
 } 
 .navbar{
     float: right;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top:-45px;
     
     
@@ -44,13 +44,14 @@ header{
     color: rgba(0, 0, 0, 0.228);
     font-size: xx-large;
     margin-top: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     padding-top: 30px;
 }
 /* header end */
 /* about me starts */
 .about{
     border: 2px solid red;
+    text-decoration-line: underline;
     height: 30em;
     padding-top: 30px;
 }
