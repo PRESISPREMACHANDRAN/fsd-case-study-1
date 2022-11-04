@@ -185,6 +185,7 @@ form h2{
     width: 50%;
     /* border: 1px solid red; */
     margin-left: 20px;
+    height: 3em;
 }
 
 /* contact form end */
@@ -192,7 +193,7 @@ form h2{
 footer{
     /* border:  2px solid red; */
     padding-left: 30px;
-    margin-top: 30%;
+    margin-top: 36%;
 }
 .footer a{
     text-decoration: none;
@@ -206,12 +207,16 @@ footer{
     color: black;
     
 }
+#facebook{
+    border: none;
+}
 #footer{
     color: brown;
     word-spacing: 10px;
     font-size: larger;
     /* border:  2px solid red; */
     padding-right:10px;
+    padding-left: 30px;
     float: left;
 }
 /* footer ends */
