@@ -51,7 +51,7 @@ header{
 
 /* about me starts */
 .about{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
     height: 35em;
     padding-top: 30px;
@@ -61,22 +61,22 @@ header{
     text-align: center;
     font-size: xx-large;
     text-decoration-line: underline;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
 }
 #image{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     float: left;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .paragraph{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     float: right;
     margin-left: 60%;
-    margin-bottom: 50%;
+    
     margin-right: 40px;
-    margin-top: 10px;
+    margin-top: -290px;
  
    
 }
@@ -84,19 +84,19 @@ header{
 
 /* about me ends */
 /* skills starts */
-#skills{
+body h2{
     text-align: center;
-    text-decoration-line: underline;
-    border:  2px solid blue;
-    /* padding-top: 1px; */
-    /* height: -20em;
-    padding-bottom: 100%;
-    margin-bottom: 40%; */ */
+    font-size: 40px;
 }
-.skill_list{ 
-    /* padding-left: 150px;
-    font-size: x-large; */
-    border: 2px solid green
+#skills{
+   height: 2px;
+   width: 90px; 
+   margin-left: 47%;
+   background-color: black;
+}
+.skillslist{
+   margin-left: 20%;
+   padding-bottom: 6px;
 }
 /* skills end */
 /* education starts */
@@ -131,12 +131,10 @@ header{
 /* education ends */
 /* contact form starts */
 form{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     float: left;
-    margin-bottom: 50%;
-    
     margin-left: 520px;
-    height: 20em;
+    height: 22em;
     padding: 20px;
 }
 form button{
@@ -152,32 +150,67 @@ form h2{
     text-decoration-line:underline;
     
 }
-.name{
-    
+#form_name{
+    /* border: 1px solid red; */
+    padding-right: 40px;
 }
+#form_email{
+    /* border: 1px solid red; */
+    padding-right: 40px;
+}
+#form_number{
+    /* border: 1px solid red; */
+    padding-right: 20px;
+}
+#form_message{
+    /* border: 1px solid red; */
+    padding-right: 18px;
+}
+#input_name{
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+}
+#input_email{
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-left: 22px;
+}
+#input_number{
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-left: 22px;
+}
+#input_message{
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+}
+
 /* contact form end */
 /* footer starts */
 footer{
-    border:  2px solid red;
-    padding-left: 80px;
+    /* border:  2px solid red; */
+    padding-left: 30px;
     margin-top: 30%;
 }
 .footer a{
     text-decoration: none;
-    border:  2px solid red;
-    /* margin-right:10%; */
+    /* border:  2px solid red; */
+   
     border-right: 2px solid black;
-    /* padding-left: 70px; */
+    padding-left: 20px;
     font-size:larger;
-   padding-right: 40px;
+    padding-right: 30px;
+   
     color: black;
     
 }
 #footer{
     color: brown;
     word-spacing: 10px;
-    font-size: x-large;
-    border:  2px solid red;
+    font-size: larger;
+    /* border:  2px solid red; */
     padding-right:10px;
     float: left;
 }
