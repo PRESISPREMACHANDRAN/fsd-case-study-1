@@ -6,8 +6,8 @@
 }
 /* * header starts */ 
 header{
-    height: 15em;
-    border: 1px solid white;
+    height: 3em;
+    /* border: 1px solid red; */
 }
 #title{
     margin-left:8%;
@@ -38,6 +38,7 @@ header{
 #contact{
     border:none;
 }
+/* header end */
 #hello{
     border: 3px solid rgb(80, 76, 76);
     text-align: center;
@@ -45,44 +46,57 @@ header{
     font-size: xx-large;
     margin-top: 80px;
     padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
-/* header end */
+
 /* about me starts */
 .about{
     border: 2px solid red;
-    text-decoration-line: underline;
-    height: 30em;
+    
+    height: 35em;
     padding-top: 30px;
 }
 #heading{
     color: brown;
     text-align: center;
-    font-size: xxx-large;
+    font-size: xx-large;
+    text-decoration-line: underline;
+    border: 2px solid red;
     
 }
 #image{
     border: 2px solid red;
     float: left;
     margin-left: 20%;
-    margin-top: 1px;
+    margin-top: 10%;
 }
 .paragraph{
     border: 2px solid red;
     float: right;
     margin-left: 60%;
+    margin-bottom: 50%;
+    margin-right: 40px;
+    margin-top: 10px;
+ 
+   
 }
+
+
 /* about me ends */
 /* skills starts */
 #skills{
     text-align: center;
     text-decoration-line: underline;
-    border:  2px solid red;
+    border:  2px solid blue;
+    /* padding-top: 1px; */
+    /* height: -20em;
+    padding-bottom: 100%;
+    margin-bottom: 40%; */ */
 }
-.skill_list{
-    padding-left: 150px;
-    font-size: x-large;
-    border: 2px solid red;
+.skill_list{ 
+    /* padding-left: 150px;
+    font-size: x-large; */
+    border: 2px solid green
 }
 /* skills end */
 /* education starts */
@@ -130,6 +144,7 @@ form button{
     border-color: rgb(216, 207, 207);
     font-size: larger;
     margin-left: 80px;
+    margin-top: -22px;
     
 }
 form h2{
